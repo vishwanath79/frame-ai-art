@@ -6,9 +6,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 cred.py
+images/
+testtv.py
 # C extensions
 *.so
-*.png
+
 # Distribution / packaging
 .Python
 env/
