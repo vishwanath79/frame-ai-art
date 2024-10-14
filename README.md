@@ -7,11 +7,12 @@ Control the Art Mode of a Samsung TV using the TV's API by uwing your own images
 
 In this case, it renders an image of the top news of the day.
 
+![Example Image](example.png)
+
+
+
 ![Example Image](tv_art.jpeg)
 
-
-
-![Example Image](example.png)
 
 **Description**
 ---------------
