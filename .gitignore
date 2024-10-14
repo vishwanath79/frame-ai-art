@@ -10,7 +10,7 @@ images/
 testtv.py
 # C extensions
 *.so
-
+constants.py
 # Distribution / packaging
 .Python
 env/

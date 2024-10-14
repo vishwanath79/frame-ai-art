@@ -7,8 +7,11 @@ Control the Art Mode of a Samsung TV using the TV's API by uwing your own images
 
 In this case, it renders an image of the top news of the day.
 
-![Example Image](Example.png)
+![Example Image](tv_art.jpeg)
 
+
+
+![Example Image](example.png)
 
 **Description**
 ---------------
@@ -28,9 +31,17 @@ The script uses the Samsung TV's API to retrieve the list of available art, sele
 1. Install the required libraries by running `pip install samsungtvws`
 2. Create a new file called `config.py` with the following contents:
 ```python
+from news import get_prompt
 TV_IP = '192.168.1.100'  # Replace with your TV's IP address
+# Set your OpenAI API key.
+OPENAI_API_KEY = # Your OpenAI API key
+PPX = # Your perplexity APU key
+
+# Modify the prompt to your liking
+PROMPT = f"Generate an photrealistic image consolidating the various items in {get_prompt('Enter your prompt here')}"
+
 ```
-3. Run the script by executing `python art_mode_controller.py`
+3. Run the script by executing `python main.py`
 
 **Functions**
 -------------
