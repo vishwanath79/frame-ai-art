@@ -25,6 +25,9 @@ The script uses the Samsung TV's API to retrieve the list of available art, sele
 * Python 3.x
 * Samsung Frame TV with Art Mode enabled
 * Network connection to the TV
+* Uses the `samsungtvws` library to communicate with the TV
+* Uses the `openai` library to generate images based on prompts
+* Uses the `perplexity` library to get text completion based on prompts
 
 **Usage**
 -----
