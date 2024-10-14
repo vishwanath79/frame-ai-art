@@ -33,10 +33,11 @@ The script uses the Samsung TV's API to retrieve the list of available art, sele
 2. Create a new file called `config.py` with the following contents:
 ```python
 from news import get_prompt
+from constants import PPX # Import the PPX API key from a file called constants.py
 TV_IP = '192.168.1.100'  # Replace with your TV's IP address
 # Set your OpenAI API key.
 OPENAI_API_KEY = # Your OpenAI API key
-PPX = # Your perplexity APU key
+PPX = # Your perplexity API key
 
 # Modify the prompt to your liking
 PROMPT = f"Generate an photrealistic image consolidating the various items in {get_prompt('Enter your prompt here')}"
