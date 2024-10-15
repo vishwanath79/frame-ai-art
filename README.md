@@ -3,12 +3,9 @@
 **Frame A(I)rt**
 =======================
 
-Control the Art Mode of a Samsung TV using the TV's API by uwing your own images based on whatever prompt you want.
+Control the Art Mode of a Samsung TV using the TV's API by using your own images based on whatever prompt you want.
 
 In this case, it renders an image of the top news of the day.
-
-![Example Image](exampleresults.png)
-
 
 
 ![Example Image](tv_art.jpeg)
