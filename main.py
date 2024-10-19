@@ -63,6 +63,7 @@ if __name__ == '__main__':
     # Generate an image using the DALL-E 3 model and save it to a file
     
     image, image_name = generate_image(PROMPT)
+    print(image_name)
 
     # List available art
     art_list = tv.art().available()
@@ -83,6 +84,6 @@ if __name__ == '__main__':
     print("LATEST ART: ", latest_art)
     content_id = latest_art['content_id']
     print(content_id)
-    tv.art().select_image(content_id)
+    #tv.art().select_image(content_id)
             
 
