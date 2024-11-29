@@ -84,6 +84,6 @@ if __name__ == '__main__':
     print("LATEST ART: ", latest_art)
     content_id = latest_art['content_id']
     print(content_id)
-    #tv.art().select_image(content_id)
+    tv.art().select_image(content_id)
             
 
