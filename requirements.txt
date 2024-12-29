@@ -23,3 +23,5 @@ tqdm==4.66.5
 typing_extensions==4.12.2
 urllib3==2.2.3
 websocket-client==1.8.0
+pytest==8.0.0
+pytest-mock==3.12.0
